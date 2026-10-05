@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .background{
+            height: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .con{
+            color: white;
+            text-transform: capitalize;
+            height: 500px;
+            width: 800px;
+            margin: auto;
+            background-color: teal;
+            display: flex;justify-content: center;align-items: center;
+        }
+        .box{
+
+            height: 80%;
+            width: 80%;
+            background-color: skyblue;
+        }
+        .box1{
+            border: 20px solid navy;
+            height: 80%;
+            width: 80%;
+            margin: 40PX 0PX 40PX 60PX;
+            background-color: blue;
+            padding: 50PX 0PX 0PX 70PX;
+        }
+        .box2{
+            text-align: center;
+            line-height: 180px;
+            margin-left: 18px;
+            height: 80%;
+            width: 80%;
+            background-color: orange;
+        }
+        .margin{
+            position: absolute;
+            left: 49%;
+            top: 20%;
+        }
+        .border{
+            position: absolute;
+            left: 49%;
+            top: 24%;
+        }
+        .padding{
+            position: absolute;
+            left: 49%;
+            top: 28%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="con">
+            <div class="box">
+                <P class="margin">margin</P>
+                <div class="box1">
+                    <P class="border">border</P>
+                    <P class="padding">padding</P>
+                    <div class="box2">Content</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
